@@ -1,0 +1,28 @@
+.login-screen {
+  background-color: gray;
+  color: white;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.login-items {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-screen-sign-in-btn {
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 16pt;
+  border: 2px solid green;
+}
+
+.login-screen-sign-in-btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}

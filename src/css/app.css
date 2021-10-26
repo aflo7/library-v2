@@ -1,0 +1,53 @@
+.App {
+  margin-top: 10px;
+}
+
+.title-wrapper, .author-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: lightgray;
+  font-size: 16pt;
+}
+
+.app-title-input {
+  font-size: 16pt;
+  padding: 2px;
+}
+
+.app-author-input {
+  font-size: 16pt;
+  padding: 2px;
+}
+
+.add-book-btn {
+  font-size: 14pt;
+  padding: 2px;
+  background-color: lightskyblue;
+  border: none;
+  cursor: pointer;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.book-list {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+}

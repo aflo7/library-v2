@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: darkgray;
+  font-size: 16pt;
+}
+
+.nav-login {
+  font-size: 14pt;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.nav-logout {
+  font-size: 14pt;
+  padding: 5px;
+  background-color: rgb(255, 111, 111);
+  border: none;
+  cursor: pointer;
+}
+.nav-name {
+  font-size: 14pt;
+  padding: 5px;
+}
